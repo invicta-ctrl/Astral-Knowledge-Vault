@@ -27,10 +27,10 @@
       "npm_package": "ecc-universal@2.2.3",
       "package_path": "skills/security-review/SKILL.md",
       "sha256": "b9eb6416eebc8dda046674f0a2dbb3be88aff526d182b60a0f55998d3d6d0d8d",
-      "additional_files": [
-        "cloud-infrastructure-security.md"
-      ],
-      "distribution": "external-pinned"
+      "distribution": "external-pinned",
+      "additional_file_sha256": {
+        "cloud-infrastructure-security.md": "7d9a83852475a9396e04c59c73df84ac24ee0f41322016de7c11c62138c2a8ca"
+      }
     },
     {
       "name": "lean-verification",
