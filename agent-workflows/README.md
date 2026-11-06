@@ -14,7 +14,7 @@ Reuse five on-demand skills in Earl's Claude Code and Codex installations while 
 | `lean-verification` | Custom, included here | Exact-head, diff-first, risk-based review evidence |
 | `leanrea-scout` | Custom, included here | Authorized read-only static reconnaissance, with gated REA escalation |
 
-Vendor sources are **pinned, not vendored**: see `manifest.json`. The two custom skill definitions live under `skills/`. Do not install the entire ECC framework or ECC PR #3869's unmodified reconnaissance implementation.
+Vendor sources are **pinned, not vendored**: see `manifest.json`. Upstream ECC content is MIT licensed; retain the original [LICENSE](https://github.com/affaan-m/ECC/blob/v2.2.3/LICENSE) and attribution when redistributing copied vendor files. The two custom skill definitions live under `skills/`. Do not install the entire ECC framework or ECC PR #3869's unmodified reconnaissance implementation.
 
 ## Authority and permissions
 
@@ -29,7 +29,7 @@ Skills provide task guidance, not permission to write, run a binary, change a da
 ## Host coverage
 
 - **Claude Code:** User-level `%USERPROFILE%\.claude\skills\` verified in the owner's Windows environment.
-- **Codex:** User-level `%USERPROFILE%\.agents\skills\` verified; existing managed `%USERPROFILE%\.codex\AGENTS.md` left unchanged.
+- **Codex:** User-level `%USERPROFILE%\.agents\skills\` verified; existing managed `%USERPROFILE%\.codex\AGENTS.md` left unchanged. The same `lean-verification` checklist is installed in both hosts, but its current frontmatter names Claude Code; fresh-session Codex automatic discovery/selection has not been proven.
 - **ChatGPT Web:** The separate personal `earl-agent-workflow` routing skill has been saved. It does not imply all five Windows skills execute in ChatGPT Web.
 - **Astral Bridge:** Use existing authenticated tools and project-specific governance. This package does not modify the MCP server, add an unrestricted tool, or certify provider readiness.
 
