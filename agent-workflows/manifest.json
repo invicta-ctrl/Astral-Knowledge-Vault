@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "review-candidate",
+  "review_date": "2026-11-06",
+  "source": "invicta-ctrl/gpt-context-vault",
+  "rules": "Canonical AGENTS and accepted project specs take precedence; no new hooks or permissions",
+  "skills": [
+    {
+      "name": "contract-first",
+      "origin": "ECC",
+      "npm_package": "ecc-universal@2.2.3",
+      "package_path": "skills/contract-first/SKILL.md",
+      "sha256": "3eaacf16a9bbd92888659e9c1e15b0fa4eb96a41c257dd9e08f2e63b824f0cea",
+      "distribution": "external-pinned"
+    },
+    {
+      "name": "frontend-a11y",
+      "origin": "ECC-community",
+      "npm_package": "ecc-universal@2.2.3",
+      "package_path": "skills/frontend-a11y/SKILL.md",
+      "sha256": "e00991a3f4d47fcf1529dd74a080afcf46137dc5061e70dc6e3da7b27f2ae3f3",
+      "distribution": "external-pinned"
+    },
+    {
+      "name": "security-review",
+      "origin": "ECC",
+      "npm_package": "ecc-universal@2.2.3",
+      "package_path": "skills/security-review/SKILL.md",
+      "sha256": "b9eb6416eebc8dda046674f0a2dbb3be88aff526d182b60a0f55998d3d6d0d8d",
+      "additional_files": [
+        "cloud-infrastructure-security.md"
+      ],
+      "distribution": "external-pinned"
+    },
+    {
+      "name": "lean-verification",
+      "origin": "owner-custom",
+      "repository_path": "agent-workflows/skills/lean-verification/SKILL.md",
+      "sha256": "d2d3762b518ee302e257a65bb7c38dcac764eb742da1605e52cde65cc73c0ba4",
+      "distribution": "included"
+    },
+    {
+      "name": "leanrea-scout",
+      "origin": "owner-custom",
+      "repository_path": "agent-workflows/skills/leanrea-scout/SKILL.md",
+      "sha256": "67eada3bf47dce0a322d4e12c1649ec19b972c40015ed0efc63c895af378c628",
+      "distribution": "included"
+    }
+  ]
+}
