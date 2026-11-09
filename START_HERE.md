@@ -2,14 +2,14 @@
 schema_version: 1
 status: active
 scope: account-wide
-last_reviewed: 2026-08-19
+last_reviewed: 2026-11-09
 ---
 
-# Start Here
+# Start Here — Astral Knowledge Vault
 
 The root [`AGENTS.md`](AGENTS.md) is the required agent entrypoint.
 
-Use this file for human onboarding, unresolved routing, or non-project requests that need additional Context Vault context. Do not read it automatically after `AGENTS.md` has already identified the authoritative project and minimum required context.
+Use this file for human onboarding, unresolved routing, or non-project requests that need additional Astral Knowledge Vault context. Do not read it automatically after `AGENTS.md` has already identified the authoritative project and minimum required context.
 
 ## Retrieval procedure
 
