@@ -6,7 +6,7 @@ scope: project-extension
 
 # Project Policy Extension
 
-This extension is subordinate to the canonical Context Vault `AGENTS.md` and
+This extension is subordinate to the canonical Astral Knowledge Vault `AGENTS.md` and
 contains only project-specific accepted rules. Keep product authority, current
 state, specifications, writer locks, data invariants, deployment gates, and
 verification commands in the authoritative project repository.
