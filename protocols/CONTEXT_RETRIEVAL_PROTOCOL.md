@@ -12,7 +12,7 @@ last_reviewed: 2026-08-20
 1. Read the root [`../AGENTS.md`](../AGENTS.md).
 2. Determine the request's intent, target, authority, risk, deliverable, and verification needs.
 3. Scan the available skill descriptions and select only directly relevant playbooks.
-4. Retrieve the minimum relevant Context Vault files.
+4. Retrieve the minimum relevant Astral Knowledge Vault files.
 5. When token, context, delegation, evidence reuse, review, or verification efficiency is in scope, follow the canonical [`CODEX_TOKEN_OPTIMIZATION_AND_CONTEXT_EFFICIENCY_RULES.md`](CODEX_TOKEN_OPTIMIZATION_AND_CONTEXT_EFFICIENCY_RULES.md) at repository path `protocols/CODEX_TOKEN_OPTIMIZATION_AND_CONTEXT_EFFICIENCY_RULES.md`.
 6. For registered project work, consult [`../projects/PROJECT_REGISTRY.md`](../projects/PROJECT_REGISTRY.md) only when routing remains unresolved, then use the project repository as authority.
 7. In the project repository, read its applicable `AGENTS.md` files and `.codex/CURRENT.md` when present.
