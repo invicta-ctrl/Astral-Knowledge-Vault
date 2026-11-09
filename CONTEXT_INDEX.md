@@ -2,10 +2,10 @@
 schema_version: 1
 status: active
 scope: account-wide
-last_reviewed: 2026-08-25
+last_reviewed: 2026-11-09
 ---
 
-# Context Index
+# Astral Knowledge Vault Context Index
 
 Use this index only when the root [`AGENTS.md`](AGENTS.md) has not already resolved the required route. Do not read every listed file by default.
 

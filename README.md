@@ -2,14 +2,14 @@
 schema_version: 1
 status: active
 scope: account-wide
-last_reviewed: 2026-08-19
+last_reviewed: 2026-11-09
 ---
 
-# GPT Context Vault
+# Astral Knowledge Vault
 
-This private repository is Earl Adriano's curated, version-controlled context vault for ChatGPT, Codex, and future AI-assisted workflows.
+Astral Knowledge Vault is Earl Adriano's version-controlled repository for curated account-wide context, governance, project routing, reusable prompts, and engineering workflows. It was formerly named **GPT Context Vault**; that name remains valid in dated historical records and original migration evidence.
 
-It stores only stable or currently useful context, project summaries, routing rules, update protocols, security controls, reusable prompts, and templates.
+The repository complements the local Obsidian knowledge workspace and Astral Suite. It stores stable or currently useful context, project summaries, routing rules, update protocols, security controls, and templates. It does not replace the authoritative repositories for individual projects.
 
 It is **not**:
 
@@ -21,6 +21,13 @@ It is **not**:
 - a store for live project plans, checkpoints, diffs, logs, or runtime state;
 - a substitute for current direct instructions.
 
+## Current identity and integration boundary
+
+- **GitHub repository:** [invicta-ctrl/Astral-Knowledge-Vault](https://github.com/invicta-ctrl/Astral-Knowledge-Vault) — currently **public**. Commit only material suitable for public disclosure.
+- **Local Obsidian vault:** D:\Documents\Astral Knowledge Vault — the approved human-readable PARA workspace. This folder and the GitHub repository are distinct; automatic synchronization has not been operationally verified.
+- **Projects and worktrees:** the accepted future locations are 99-System/Workspace/Projects and 99-System/Workspace/Worktrees within the local vault. These retain independent Git repositories. **Project code must not be automatically published to this public knowledge repository.**
+- **AK-PARA-001:** the 16-file legacy-source dry-run manifest was source-merged, but live import approval remains pending as of November 9, 2026. QMD reindexing, automatic chat import/update, ICM and Graphify connections require their own accepted implementation and verification. See [Astral Suite's current authority](https://github.com/invicta-ctrl/Astral-Suite/blob/main/.codex/CURRENT.md).
+
 ## How the system is divided
 
 | Layer | Primary purpose |
@@ -28,7 +35,7 @@ It is **not**:
 | Native ChatGPT memory | Lightweight personal preferences and recurring background |
 | General ChatGPT chats | Everyday questions, temporary work, and unrelated conversations |
 | ChatGPT Projects | Focused workspaces for large, long-running projects |
-| `gpt-context-vault` | Curated account-wide context, routing, and reusable governance |
+| Astral Knowledge Vault (this repository) | Curated account-wide context, routing, and reusable governance |
 | Individual project repositories | Authoritative specifications, code, decisions, plans, checkpoints, tests, evidence, and project status |
 
 ## Source-of-truth hierarchy
@@ -54,7 +61,7 @@ Current direct instructions override older stored context, but material project 
 
 Do not reread the whole Vault or an entire project repository by default.
 
-## Incremental Codex workflow
+## Incremental project workflow
 
 For step-by-step software work, the Vault defines reusable governance while live continuation artifacts stay in the project repository:
 
@@ -98,7 +105,7 @@ Project repositories remain authoritative for technical facts, source code, test
 
 ## Privacy model
 
-This repository should remain private. Secrets, credentials, exact residential addresses, government identifiers, banking information, raw chat exports, and unnecessary sensitive records do not belong here.
+This repository is currently **public**. All committed content must be appropriate for public visibility. Secrets, credentials, exact residential addresses, government identifiers, banking information, raw chat exports, and unnecessary sensitive records do not belong here. Private local-vault material is not automatically eligible for publication.
 
 See:
 
@@ -125,21 +132,24 @@ It intentionally excludes raw chat ingestion, live project runtime state, unrest
 ## Architecture
 
 ```text
-General ChatGPT or Codex
-          |
-          v
-  gpt-context-vault
-          |
-          +-- account-wide routing and preferences
-          +-- reusable governance and templates
-          +-- canonical AGENTS policy and registry
-          +-- project registry
-                         |
-             +-----------+-----------+
-             v                       v
-     project repository       project repository
-  specs, code, plans,      research, sources,
-  checkpoints, evidence    status, and evidence
+ChatGPT / Claude Code / approved agents
+                  |
+                  v
+       Astral Knowledge Vault
+        (curated GitHub source)
+                  |
+                  +-- account-wide routing/preferences
+                  +-- governance and templates
+                  +-- canonical AGENTS policy/registry*
+                  +-- project registry
+                  |
+                  v
+         authoritative project repos
+         specs, code, tests, evidence
+
+* Canonical AGENTS checkout/registry migration remains a
+  separately gated reconciliation; existing paths are not
+  changed by this documentation rename.
 ```
 
-Repository: `https://github.com/invicta-ctrl/gpt-context-vault`
+Repository: https://github.com/invicta-ctrl/Astral-Knowledge-Vault

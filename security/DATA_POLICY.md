@@ -2,12 +2,12 @@
 schema_version: 1
 status: active
 scope: security
-last_reviewed: 2026-07-12
+last_reviewed: 2026-11-09
 ---
 
 # Data Policy
 
-This repository is intended to remain private.
+This GitHub repository is currently **public**. Only commit material suitable for public disclosure. The separate local Obsidian vault is not automatically published here; independent project source code and confidential context must never be mirrored without their own explicit authorization and review.
 
 ## Allowed content
 

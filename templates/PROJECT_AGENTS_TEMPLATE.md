@@ -15,7 +15,7 @@ Use this as a lean operational entrypoint. Keep architecture, rationale, plans, 
 
 ## Start here
 
-1. Apply the connected Context Vault's root `AGENTS.md` only for account-wide routing and governance.
+1. Apply the connected Astral Knowledge Vault's root `AGENTS.md` only for account-wide routing and governance.
 2. Confirm this repository is authoritative for its specifications, code, decisions, status, plans, checkpoints, tests, and evidence.
 3. Read this file and any nested `AGENTS.md` governing the directories being changed.
 4. When `.codex/CURRENT.md` exists, read it before broad project documentation.
@@ -33,7 +33,7 @@ Do not begin by scanning or explaining the whole repository.
 3. Applicable repository instructions and invariants
 4. Active step packet and verified checkpoint
 5. Stable project capsule and codebase map
-6. Context Vault governance and preferences
+6. Astral Knowledge Vault governance and preferences
 7. Older summaries and archived material
 
 Current instructions do not silently bypass the amendment process for material changes.
